@@ -1,10 +1,11 @@
 #include <stdio.h>
+
+/**
+ * main - this is the main function
+ * return - always 0
+ */
 int main(void)
-	/**
-	 * main - this is the main function
-	 *
-	 * return - always 0
-	 */
-{ puts("\"Programming is like building a multilingual puzzle");
-	return (0);
+{char Mystr[] = "\"Programming is like building a multilingual puzzle\n";
+puts(Mystr);
+return (0);/* returns always 0*/
 }
