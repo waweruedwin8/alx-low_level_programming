@@ -4,8 +4,8 @@
  * main - this is the main function
  * return - always 0
  */
-int main(void)
-{char Mystr[] = "\"Programming is like building a multilingual puzzle\n";
-puts(Mystr);
-return (0);/* always returns 0*/
+int main(void) /*always returns zero*/
+{
+puts("\"Programming is like building a multilingual puzzle\n");
+return (0);/*always returns zero*/
 }
