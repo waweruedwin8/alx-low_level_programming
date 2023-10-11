@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * print_sign - prints the sign no
  * @n: the no to be checked
@@ -18,6 +19,7 @@ int print_sign(int n)
 	}
 	else
 	{
+	_putchar(48);
 	return (0);
 	}
 }
