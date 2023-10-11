@@ -2,7 +2,7 @@
 #include <ctype.h>
 
 /**
- * int _islower - checks for lowercase character.
+ * _islower - checks for lowercase character.
  * @c: The char to be checked
  * Return: returns 1 if char is lowercase else returns 0
  */
