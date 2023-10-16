@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * _strlen - returns length of a str
- * @str: the str to get legth
- * Return: the lenth of @str
- */
+* _strlen - returns length of a str
+* @str: the str to get legth
+* Return: the lenth of @str
+*/
 size_t _strlen(const char *str)
 
 {
