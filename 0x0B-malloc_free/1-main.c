@@ -13,7 +13,7 @@ char *s;
 
 s = _strdup("ALX SE");
 if (s == NULL)
-}
+{
 printf("failed to allocate memory\n");
 return (1);
 }
