@@ -10,7 +10,7 @@ void free_list(list_t *head)
 list_t *current;
 
 while (head)
-    {
+{
 /* Save the reference to the next node */
 current = head->next;
 
