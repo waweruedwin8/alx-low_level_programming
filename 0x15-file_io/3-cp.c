@@ -72,8 +72,7 @@ source_fd = open(argv[1], O_RDONLY);
 read_result = read(source_fd, buffer, 1024);
 destination_fd = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
 
-do
-{
+do {
 if (source_fd == -1 || read_result == -1)
 {
 dprintf(STDERR_FILENO,
