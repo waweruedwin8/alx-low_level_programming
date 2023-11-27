@@ -26,7 +26,7 @@ file_descriptor = open(filename, O_CREAT | O_RDWR | O_TRUNC, 0600);
 bytes_written = write(file_descriptor, text_content, length);
 
 if (file_descriptor == -1 || bytes_written == -1)
-        return (-1);
+return (-1);
 
 close(file_descriptor);
 
